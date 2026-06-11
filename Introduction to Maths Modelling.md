@@ -28,7 +28,7 @@ Once the reels stop, they populate a $3 \times 5$ visible grid. We define this g
 
 The symbol in any specific cell of the grid is determined by adding the row index to the reel's stopping position (wrapping around modulo 12): 
 
-$$M_{r,c} = L_c[\,(Y_c + r) \pmod{12}\,]$$
+$$M_{r,c} = L_c[\ (Y_c + r) \pmod{12} \]$$
 
 ## 4. The Payline Random Variables
 A payline is a predetermined geometric path across the matrix $M$. Let $\pi_k$ be the $k$-th payline, defined as a vector of row indices for each column: $\pi_k = [r_0, r_1, r_2, r_3, r_4]$.
