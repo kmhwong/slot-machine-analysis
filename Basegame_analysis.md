@@ -100,9 +100,9 @@ $$\text{RTP} = \frac{E[X]}{B_{total}}$$
 From the exhaustive combinatorics of the 248,832 states, the exact expected payoff calculates to $E[X] \approx 4.9868$.
 Applying the analytical form:
 
-$$\text{RTP}_{base} = \frac{4.9868}{5.0} = \mathbf{99.737\%}$$
+$$\text{RTP}_{base} = \frac{4.9868}{5.0} = \mathbf{99.737\\%}$$
 
-The empirical simulator converges to $99.747\%$, mathematically confirming the payline evaluation logic.
+The empirical simulator converges to $99.747$%, mathematically confirming the payline evaluation logic.
 
 ## B. Analytical Forms: Variance
 
